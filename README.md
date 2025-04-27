@@ -2,10 +2,12 @@
 
 This repo contains supplementary materials for the talk "Introduction to the Omniverse and Isaac Platform for Robotics".
 
-1. Post-talk Survey [[here](https://forms.gle/at5jvGMHiUB9RpUH9)]
-2. (Optional) Register GTC 2025 online for free [[here](https://www.nvidia.com/en-us/gtc/?ncid=GTC-NVMD8BQ6)]
-3. Summary of all Isaac components [[here](https://github.com/j3soon/nvidia-isaac-summary)]
-4. Getting started with [Omniverse](https://developer.nvidia.com/omniverse#section-getting-started), [Isaac Sim](https://docs.omniverse.nvidia.com/isaacsim/latest/index.html), [Isaac Lab](https://isaac-sim.github.io/IsaacLab/main/index.html), [Isaac ROS](https://nvidia-isaac-ros.github.io/getting_started/index.html).
+1. Hands-on code for Isaac Lab [[here](https://github.com/j3soon/isaac-sim-colab)]
+2. Post-talk Survey [[here](https://forms.gle/4PbqAo24fnuaaD14A)]
+3. (Optional) Register GTC 2025 online for free [[here](https://www.nvidia.com/en-us/gtc/?ncid=GTC-NVMD8BQ6)]
+4. Join ROS Taiwan [[here](https://ros-tw.github.io/)]
+5. Summary of all Isaac components [[here](https://github.com/j3soon/nvidia-isaac-summary)]
+6. Getting started with [Omniverse](https://developer.nvidia.com/omniverse#section-getting-started), [Isaac Sim](https://docs.omniverse.nvidia.com/isaacsim/latest/index.html), [Isaac Lab](https://isaac-sim.github.io/IsaacLab/main/index.html), [Isaac ROS](https://nvidia-isaac-ros.github.io/getting_started/index.html), [GR00T](https://github.com/NVIDIA/Isaac-GR00T), [Cosmos](https://github.com/NVIDIA/Cosmos), [Warp Python](https://nvidia.github.io/warp/), [and more](https://github.com/j3soon/nvidia-isaac-summary).
 
 ## Abstract of the Talk
 
