@@ -3,7 +3,9 @@
 This repo contains supplementary materials for the talk "Introduction to the Omniverse and Isaac Platform for Robotics".
 
 1. Hands-on code for Isaac Lab [[here](https://github.com/j3soon/isaac-sim-colab)]
-2. Post-talk Survey [[here](https://forms.gle/4PbqAo24fnuaaD14A)]
+2. Post-talk Survey
+   - For NTU students [[here](https://forms.gle/4PbqAo24fnuaaD14A)]
+   - For NYCU students [[here](https://forms.gle/BcatADoGnBdJXedr7)]
 3. GTC Taipei at COMPUTEX 2025 [[here](https://www.nvidia.com/zh-tw/gtc/)]
 4. Join ROS Taiwan [[here](https://ros-tw.github.io/)]
 5. Summary of all Isaac components [[here](https://github.com/j3soon/nvidia-isaac-summary)]
