@@ -6,9 +6,10 @@ This repo contains supplementary materials for the talk "Introduction to the Omn
    - [OpenUSD Learning Path](https://www.nvidia.com/en-us/learn/learning-path/openusd/)
    - [Robotics Fundamentals Learning Path](https://www.nvidia.com/en-us/learn/learning-path/robotics/)
 2. Hands-on code for Isaac Lab [[here](https://github.com/j3soon/isaac-sim-colab)]
-3. Join ROS Taiwan [[here](https://ros-tw.github.io/)]
-4. Summary of all Isaac components [[here](https://github.com/j3soon/nvidia-isaac-summary)]
-5. Getting started with [Omniverse](https://developer.nvidia.com/omniverse#section-getting-started), [Isaac Sim](https://docs.omniverse.nvidia.com/isaacsim/latest/index.html), [Isaac Lab](https://isaac-sim.github.io/IsaacLab/main/index.html), [Isaac ROS](https://nvidia-isaac-ros.github.io/getting_started/index.html), [Jetson AGX](https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/), [GR00T](https://github.com/NVIDIA/Isaac-GR00T), [Cosmos](https://github.com/NVIDIA/Cosmos), [R2D2](https://developer.nvidia.com/blog/tag/robotics-research-development-digest-r2d2/), [Newton](https://github.com/newton-physics/newton), [Warp Python](https://nvidia.github.io/warp/), [MuJoCo-Warp](https://github.com/google-deepmind/mujoco_warp), [and more](https://github.com/j3soon/nvidia-isaac-summary).
+3. Post-talk Survey [[here](https://forms.gle/P6ospe88LKP7marj7)]
+4. Join Taiwan Robotics (i.e., ROS Taiwan) [[here](https://ros-tw.github.io/)]
+5. Summary of all Isaac components [[here](https://github.com/j3soon/nvidia-isaac-summary)]
+6. Getting started with [Omniverse](https://developer.nvidia.com/omniverse#section-getting-started), [Isaac Sim](https://docs.omniverse.nvidia.com/isaacsim/latest/index.html), [Isaac Lab](https://isaac-sim.github.io/IsaacLab/main/index.html), [Isaac ROS](https://nvidia-isaac-ros.github.io/getting_started/index.html), [Jetson AGX](https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/), [GR00T](https://github.com/NVIDIA/Isaac-GR00T), [Cosmos](https://github.com/NVIDIA/Cosmos), [R2D2](https://developer.nvidia.com/blog/tag/robotics-research-development-digest-r2d2/), [Newton](https://github.com/newton-physics/newton), [Warp Python](https://nvidia.github.io/warp/), [MuJoCo-Warp](https://github.com/google-deepmind/mujoco_warp), [and more](https://github.com/j3soon/nvidia-isaac-summary).
 
 ## Abstract of the Talk
 
