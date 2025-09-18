@@ -1,16 +1,16 @@
 # Intro to Omniverse and Isaac, Supplementary Materials
 
-This repo contains supplementary materials for the talk "Accelerating Robotics with NVIDIA Omniverse, Isaac, Jetson, and GR00T".
+This repo contains supplementary materials for the talk "Introduction to the Omniverse and Isaac Platform for Robotics".
 
 1. Official NVIDIA Learning Paths
    - [OpenUSD Learning Path](https://www.nvidia.com/en-us/learn/learning-path/openusd/)
    - [Digital Twins for Physical AI Learning Path](https://www.nvidia.com/en-us/learn/learning-path/digital-twins/)
    - [Robotics Fundamentals Learning Path](https://www.nvidia.com/en-us/learn/learning-path/robotics/)
 2. Hands-on code for Isaac Lab [[here](https://github.com/j3soon/isaac-sim-colab)]
-3. Post-talk Survey [[here](https://forms.gle/SRnS5L3UXyk9Lukn9)]
+   <!-- 3. Post-talk Survey -->
 4. Join Taiwan Robotics (i.e., ROS Taiwan) [[here](https://ros-tw.github.io/)]
 5. Summary of all Isaac components [[here](https://github.com/j3soon/nvidia-isaac-summary)]
-6. [GitHub Student Developer Pack](https://education.github.com/pack)
+   <!-- 6. [GitHub Student Developer Pack](https://education.github.com/pack) -->
 7. Getting started with [Omniverse](https://developer.nvidia.com/omniverse#section-getting-started), [Isaac Sim](https://docs.omniverse.nvidia.com/isaacsim/latest/index.html), [Isaac Lab](https://isaac-sim.github.io/IsaacLab/main/index.html), [Isaac ROS](https://nvidia-isaac-ros.github.io/getting_started/index.html), [Jetson AGX](https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/), [GR00T](https://github.com/NVIDIA/Isaac-GR00T), [Cosmos](https://github.com/NVIDIA/Cosmos), [R2D2](https://developer.nvidia.com/blog/tag/robotics-research-development-digest-r2d2/), [Newton](https://github.com/newton-physics/newton), [NVIDIA Warp](https://nvidia.github.io/warp/), [MuJoCo-Warp](https://github.com/google-deepmind/mujoco_warp), [and more](https://github.com/j3soon/nvidia-isaac-summary).
 
 ## Abstract of the Talk
