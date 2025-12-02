@@ -7,7 +7,7 @@ This repo contains supplementary materials for the talk "Introduction to the Omn
    - [Digital Twins for Physical AI Learning Path](https://www.nvidia.com/en-us/learn/learning-path/digital-twins/)
    - [Robotics Fundamentals Learning Path](https://www.nvidia.com/en-us/learn/learning-path/robotics/)
 2. Hands-on code for Isaac Lab [[here](https://github.com/j3soon/isaac-sim-colab)]
-   <!-- 3. Post-talk Survey -->
+3. Post-talk Survey [[here](https://forms.gle/CtZFVgWKwqZtvCQF7)]
 4. Join Taiwan Robotics (i.e., ROS Taiwan) [[here](https://ros-tw.github.io/)]
 5. Summary of all Isaac components [[here](https://github.com/j3soon/nvidia-isaac-summary)]
    <!-- 6. [GitHub Student Developer Pack](https://education.github.com/pack) -->
