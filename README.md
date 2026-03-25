@@ -2,15 +2,20 @@
 
 This repo contains supplementary materials for the talk "Introduction to the Omniverse and Isaac Platform for Robotics".
 
-1. Official NVIDIA Learning Paths
+1. Official NVIDIA Learning Paths (free)
    - [OpenUSD Learning Path](https://www.nvidia.com/en-us/learn/learning-path/openusd/)
    - [Digital Twins for Physical AI Learning Path](https://www.nvidia.com/en-us/learn/learning-path/digital-twins/)
    - [Robotics Fundamentals Learning Path](https://www.nvidia.com/en-us/learn/learning-path/robotics/)
-2. Hands-on code for Isaac Lab [[here](https://github.com/j3soon/isaac-sim-colab)]
-3. Join Taiwan Robotics (i.e., ROS Taiwan) [[here](https://ros-tw.github.io/)]
-4. GitHub Student Developer Pack [[here](https://education.github.com/pack)]
-5. Summary of all Isaac components [[here](https://github.com/j3soon/nvidia-isaac-summary)]
-6. Getting started with [Omniverse](https://developer.nvidia.com/omniverse#section-getting-started), [Isaac Sim](https://docs.omniverse.nvidia.com/isaacsim/latest/index.html), [Isaac Lab](https://isaac-sim.github.io/IsaacLab/main/index.html), [Isaac ROS](https://nvidia-isaac-ros.github.io/getting_started/index.html), [Jetson AGX](https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/), [GR00T](https://github.com/NVIDIA/Isaac-GR00T), [Cosmos](https://github.com/NVIDIA/Cosmos), [R2D2](https://developer.nvidia.com/blog/tag/robotics-research-development-digest-r2d2/), [Newton](https://github.com/newton-physics/newton), [NVIDIA Warp](https://nvidia.github.io/warp/), [MuJoCo-Warp](https://github.com/google-deepmind/mujoco_warp), [and more](https://github.com/j3soon/nvidia-isaac-summary).
+1. [NVIDIA Developer Program](https://reurl.cc/Ny1N3n) (free)
+1. [NVIDIA Inception Program (Startups)](https://www.nvidia.com/zh-tw/startups/)
+1. [NVIDIA Connect Program (ISVs)](https://www.nvidia.com/zh-tw/programs/isv/)
+1. Isaac Launchable Deployment (\$) [[here](https://docs.isaacsim.omniverse.nvidia.com/5.1.0/installation/install_advanced_cloud_setup_launchable.html)]
+1. Test Isaac Lab on Colab (free) [[here](https://github.com/j3soon/isaac-sim-colab)]
+1. Join Taiwan Robotics (i.e., ROS Taiwan) [[here](https://ros-tw.github.io/)]
+1. GitHub Student Developer Pack [[here](https://education.github.com/pack)]
+1. Summary of all Isaac components [[here](https://github.com/j3soon/nvidia-isaac-summary)]
+1. Getting started with [Omniverse](https://developer.nvidia.com/omniverse#section-getting-started), [Isaac Sim](https://docs.omniverse.nvidia.com/isaacsim/latest/index.html), [Isaac Lab](https://isaac-sim.github.io/IsaacLab/main/index.html), [Isaac ROS](https://nvidia-isaac-ros.github.io/getting_started/index.html), [Jetson AGX](https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/), [GR00T](https://github.com/NVIDIA/Isaac-GR00T), [Cosmos](https://github.com/NVIDIA/Cosmos), [R2D2](https://developer.nvidia.com/blog/tag/robotics-research-development-digest-r2d2/), [Newton](https://github.com/newton-physics/newton), [NVIDIA Warp](https://nvidia.github.io/warp/), [MuJoCo-Warp](https://github.com/google-deepmind/mujoco_warp), [and more](https://github.com/j3soon/nvidia-isaac-summary).
+1. [Physical AI for the Real World: A Vision From NVIDIA Robotics Research [S81479]](https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81479/)
 
 ## Abstract of the Talk
 
