@@ -2,23 +2,18 @@
 
 This repo contains supplementary materials for the talk "Introduction to the Omniverse and Isaac Platform for Robotics".
 
+1. Post-talk Survey [[here](https://forms.gle/KPkB4MyzzecnTrdR6)]
 1. Official NVIDIA Learning Paths (free)
    - [OpenUSD Learning Path](https://www.nvidia.com/en-us/learn/learning-path/openusd/)
    - [Digital Twins for Physical AI Learning Path](https://www.nvidia.com/en-us/learn/learning-path/digital-twins/)
    - [Robotics Fundamentals Learning Path](https://www.nvidia.com/en-us/learn/learning-path/robotics/)
-1. [NVIDIA Developer Program](https://reurl.cc/Ny1N3n) (free)
-1. [NVIDIA Inception Program (Startups)](https://www.nvidia.com/zh-tw/startups/)
-1. [NVIDIA Connect Program (ISVs)](https://www.nvidia.com/zh-tw/programs/isv/)
 1. Isaac Launchable Deployment (\$) [[here](https://docs.isaacsim.omniverse.nvidia.com/5.1.0/installation/install_advanced_cloud_setup_launchable.html)]
 1. Test Isaac Lab on Colab (free) [[here](https://github.com/j3soon/isaac-sim-colab)]
 1. Join Taiwan Robotics (i.e., ROS Taiwan) [[here](https://ros-tw.github.io/)]
 1. GitHub Student Developer Pack [[here](https://education.github.com/pack)]
 1. Summary of all Isaac components [[here](https://github.com/j3soon/nvidia-isaac-summary)]
 1. Getting started with [Omniverse](https://developer.nvidia.com/omniverse#section-getting-started), [Isaac Sim](https://docs.omniverse.nvidia.com/isaacsim/latest/index.html), [Isaac Lab](https://isaac-sim.github.io/IsaacLab/main/index.html), [Isaac ROS](https://nvidia-isaac-ros.github.io/getting_started/index.html), [Jetson AGX](https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/), [GR00T](https://github.com/NVIDIA/Isaac-GR00T), [Cosmos](https://github.com/NVIDIA/Cosmos), [R2D2](https://developer.nvidia.com/blog/tag/robotics-research-development-digest-r2d2/), [Newton](https://github.com/newton-physics/newton), [NVIDIA Warp](https://nvidia.github.io/warp/), [MuJoCo-Warp](https://github.com/google-deepmind/mujoco_warp), [Isaac for Healthcare](https://github.com/isaac-for-healthcare), [and more](https://github.com/j3soon/nvidia-isaac-summary).
-1. 2026/04/17 Notes [[here](#20260417-notes)]
 1. Opencode with Free Nemotron 3 Super Setup [[here](https://github.com/j3soon/opencode-nemotron-free)]
-1. [How to Build End‑to‑End Physical AI Systems for Humanoid Robots [S81478]](https://www.nvidia.com/en-us/on-demand/session/gtc26-s81478/)
-1. Isaac Lab OpenArm Bi Task Notes [[here](https://github.com/j3soon/IsaacLab-openarm-bi-notes)]
 
 ## Abstract of the Talk
 
@@ -30,7 +25,7 @@ If time permits, attendees will be guided through a minimal Isaac Lab example de
 
 By the end of the session, attendees will have a high-level understanding of how NVIDIA's ecosystem supports robotics innovation, and how they can leverage these software and hardware tools for their own future projects. A curated list of resources is provided for individuals interested in delving deeper into robotics.
 
-## 2026/04/17 Notes
+## Getting Started Notes
 
 ### Simulation
 
@@ -67,8 +62,4 @@ Additional docs: [Cosmos Cookbook](https://nvidia-cosmos.github.io/cosmos-cookbo
 | Isaac GR00T N1.7    | [N1.7 Release Branch](https://github.com/NVIDIA/Isaac-GR00T/tree/n1.7-release), [Main Repo](https://github.com/NVIDIA/Isaac-GR00T) |
 | SONIC               | [GR00T Whole-Body Control](https://nvlabs.github.io/GR00T-WholeBodyControl/), [GEAR-SONIC Site](https://nvlabs.github.io/GEAR-SONIC/), [GR00T Whole-Body Control Code](https://github.com/NVlabs/GR00T-WholeBodyControl) |
 | Isaac Lab Arena     | [Isaac Lab Arena Docs](https://isaac-sim.github.io/IsaacLab-Arena/release/0.1.1/pages/quickstart/installation.html), [Isaac Lab Arena Code](https://github.com/isaac-sim/IsaacLab-Arena) |
-| Lyra | [Lyra Code](https://research.nvidia.com/labs/toronto-ai/lyra/) |
-
-### QR Code
-
-![](media/qr-code.png)
+| Lyra | [Lyra Code](https://research.nvidia.com/labs/toronto-ai/lyra/) [Lyra 2.0 Code](https://research.nvidia.com/labs/sil/projects/lyra2/) |
