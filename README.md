@@ -63,3 +63,79 @@ Additional docs: [Cosmos Cookbook](https://nvidia-cosmos.github.io/cosmos-cookbo
 | SONIC               | [GR00T Whole-Body Control](https://nvlabs.github.io/GR00T-WholeBodyControl/), [GEAR-SONIC Site](https://nvlabs.github.io/GEAR-SONIC/), [GR00T Whole-Body Control Code](https://github.com/NVlabs/GR00T-WholeBodyControl) |
 | Isaac Lab Arena     | [Isaac Lab Arena Docs](https://isaac-sim.github.io/IsaacLab-Arena/release/0.1.1/pages/quickstart/installation.html), [Isaac Lab Arena Code](https://github.com/isaac-sim/IsaacLab-Arena) |
 | Lyra | [Lyra Code](https://research.nvidia.com/labs/toronto-ai/lyra/) [Lyra 2.0 Code](https://research.nvidia.com/labs/sil/projects/lyra2/) |
+
+---
+
+## Agentic Workflows for Physical AI
+
+An agent is an LLM plus a harness that supplies context, orchestration, tools/skills, memory, and security controls. For these examples, give the agent a measurable outcome and require it to run, record, inspect, and iterate—not merely generate code.
+
+### Local setup
+
+> **Core assumption:** These settings are for open-source work with no sensitive information or proprietary data. For enterprise use, see the [NVIDIA agent stack](#nvidia-agent-stack) section below, especially OpenShell, and apply your organization's sandboxing, least-privilege access, secret management, network, and approval policies.
+
+- x86 Ubuntu PC with an [Isaac-supported NVIDIA GPU](https://docs.isaacsim.omniverse.nvidia.com/5.1.0/installation/requirements.html), current NVIDIA driver, Docker, and the [NVIDIA Container Toolkit](https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/latest/install-guide.html).
+- A coding agent such as Claude Code, Codex, or OpenCode. Start with normal permissions and approve commands as needed; use a disposable VM and dedicated accounts if granting broader autonomy.
+- Optional dedicated credentials for GitHub, Hugging Face, Docker Hub/NGC, [Brev](https://docs.isaacsim.omniverse.nvidia.com/6.0.1/installation/install_advanced_cloud_setup_brev.html), or Run:ai.
+
+For each run, keep the input data and baseline in the repo, ask the agent to prefer a containerized workflow, define the success check up front, and retain commands, logs, environment versions, metrics, and a screen recording as evidence.
+
+### Example prompts
+
+Replace text in `<angle brackets>` with paths or values from your environment.
+
+<details>
+<summary>1. Reproduce an Isaac ROS Nvblox demo</summary>
+
+> Reproduce the latest Isaac ROS Nvblox + Isaac Sim tutorial. Prefer the official Docker workflow. Record the result with ffmpeg, inspect the recording, and verify that the reconstruction and visualization behave as documented. Report the exact versions and commands, validation evidence, and any deviations. Do not stop after setup or code generation.
+
+References: [Nvblox tutorial with Isaac Sim](https://nvidia-isaac-ros.github.io/concepts/scene_reconstruction/nvblox/tutorials/tutorial_isaac_sim.html), [Isaac ROS Nvblox](https://nvidia-isaac-ros.github.io/repositories_and_packages/isaac_ros_nvblox/isaac_ros_nvblox/index.html).
+
+</details>
+
+<details>
+<summary>2. Reconstruct a real scene as OpenUSD</summary>
+
+> Reconstruct the scene in `data/<video>.mp4` with NuRec/3DGRUT and export an OpenUSD asset (`.usdz`) that Isaac Sim can import. Prefer Docker and use the known `<reference-object-size>` to set scale. Open the result in Isaac Sim, record it, and visually verify geometry, appearance, orientation, and scale before reporting the commands and artifacts.
+
+References: [smartphone-to-Isaac-Sim workflow](https://developer.nvidia.com/blog/reconstruct-a-scene-in-nvidia-isaac-sim-using-only-a-smartphone/), [SO-101 workspace guide](https://docs.nvidia.com/learning/physical-ai/sim-to-real-so-101/latest/05-building-workspace.html), [3DGRUT](https://github.com/nv-tlabs/3dgrut).
+
+</details>
+
+<details>
+<summary>3. Extend a Warp/Newton simulation</summary>
+
+> Inspect `<baseline-repo>` and extend it with a simple, physically plausible melting ice-cream simulation. First cite sources for material parameters and tune the frozen baseline against `<reference-video>`. Then add configurable object/room temperatures and heat transfer to the MPM particles/grid so the surface softens before the center. Run and record the baseline and result, compare them visually, and iterate until realistic enough. Keep the implementation minimal and document assumptions.
+
+References: [Newton Ice Cream example](https://github.com/j3soon/newton-ice-cream), [NVIDIA Warp](https://github.com/NVIDIA/warp), [Newton](https://github.com/newton-physics/newton), [Warp environments in Isaac Lab](https://isaac-sim.github.io/IsaacLab/develop/source/overview/core-concepts/physical-backends/newton/warp-environments.html).
+
+</details>
+
+<details>
+<summary>4. Migrate an Isaac Lab project</summary>
+
+> Port `<project>` from Isaac Lab 2.3.2 to 3.0.0-beta2-patch1 with minimal behavioral changes. Use the official migration guide and migration skill. Run both required inference workflows in the pinned old and new environments, record successful runs, and compare performance by training iteration and wall time. Stop only when tests and both inference runs pass; report remaining differences explicitly.
+
+References: [3.0 migration guide](https://isaac-sim.github.io/IsaacLab/develop/source/migration/migrating_to_isaaclab_3-0.html), [migration skill](https://github.com/isaac-sim/IsaacLab/blob/develop/skills/user/migrate-2x-to-3x/SKILL.md), [Isaac Lab](https://github.com/isaac-sim/IsaacLab).
+
+</details>
+
+<details>
+<summary>5. Orchestrate cloud resources</summary>
+
+> Using the already authenticated Brev CLI and `<launchable-url>`, inspect the required resources and estimate hourly cost before creating anything. After I approve the providers, GPU types, instance count, and budget cap, launch the sweep, run `<compatibility-script>`, collect logs, and return a support matrix with provider, instance/GPU type, compatibility, runtime, and hourly cost. Tear down only the instances created by this run after I approve deletion.
+
+For distributed Run:ai training, use the same structure: specify the repo, image, node/GPU count, expected artifacts, reporting interval, and comparisons against smaller runs.
+
+References: [Brev CLI](https://brev.nvidia.com/docs/cli), [Run:ai documentation](https://run-ai-docs.nvidia.com/).
+
+</details>
+
+### NVIDIA agent stack
+
+- [Nemotron models](https://developer.nvidia.com/topics/ai/nemotron)
+- [OpenShell secure runtime](https://github.com/NVIDIA/OpenShell)
+- [NeMo Switchyard](https://github.com/NVIDIA-NeMo/Switchyard)
+- [NeMo Agent Toolkit](https://github.com/NVIDIA/NeMo-Agent-Toolkit)
+- [NVIDIA agent skills](https://github.com/NVIDIA/skills)
+- [Isaac Sim MCP](https://docs.isaacsim.omniverse.nvidia.com/6.0.1/development_tools/isaac_sim_mcp.html)
