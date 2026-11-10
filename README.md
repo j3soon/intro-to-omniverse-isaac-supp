@@ -2,7 +2,7 @@
 
 This repo contains supplementary materials for the talk "Introduction to the Omniverse and Isaac Platform for Robotics".
 
-1. Post-talk Survey [[here](https://forms.gle/KPkB4MyzzecnTrdR6)]
+1. Post-talk Survey [[here](https://forms.gle/NYwjBvjG4mGuBcVz7)]
 1. Official NVIDIA Learning Paths (free)
    - [OpenUSD Learning Path](https://www.nvidia.com/en-us/learn/learning-path/openusd/)
    - [Digital Twins for Physical AI Learning Path](https://www.nvidia.com/en-us/learn/learning-path/digital-twins/)
