@@ -2,19 +2,21 @@
 
 This repo contains supplementary materials for the talk "Introduction to the Omniverse and Isaac Platform for Robotics".
 
-1. Slides [[here](https://drive.google.com/file/d/1pWxtAV8jxKB8N3euhA4EovqwcNsnP0yT/view?usp=sharing)]
-1. Post-talk Survey [[here](https://forms.gle/NYwjBvjG4mGuBcVz7)]
+1. Slides
+   - 11/17 NTUST [[here](https://drive.google.com/file/d/1g9InrQxQVHyo0_DElYDG9IYD1Xl_hyh4/view?usp=sharing)]
+   - 11/10 NYCU TAICA [[here](https://drive.google.com/file/d/1pWxtAV8jxKB8N3euhA4EovqwcNsnP0yT/view?usp=sharing)]
+   - If you have trouble accessing the slides, please select the previous version you attended [here](previous.md).
+1. Post-talk Survey
+   - 11/17 NTUST [[here](https://forms.gle/u789wRyE7o44yjTH8)]
+   - 11/10 NYCU TAICA [[here](https://forms.gle/NYwjBvjG4mGuBcVz7)]
 1. Official NVIDIA Learning Paths (free)
    - [OpenUSD Learning Path](https://www.nvidia.com/en-us/learn/learning-path/openusd/)
    - [Digital Twins for Physical AI Learning Path](https://www.nvidia.com/en-us/learn/learning-path/digital-twins/)
    - [Robotics Fundamentals Learning Path](https://www.nvidia.com/en-us/learn/learning-path/robotics/)
 1. Isaac Launchable Deployment (\$) [[here](https://docs.isaacsim.omniverse.nvidia.com/5.1.0/installation/install_advanced_cloud_setup_launchable.html)]
-1. Test Isaac Lab on Colab (free) [[here](https://github.com/j3soon/isaac-sim-colab)]
 1. Join Taiwan Robotics (i.e., ROS Taiwan) [[here](https://ros-tw.github.io/)]
 1. GitHub Student Developer Pack [[here](https://education.github.com/pack)]
-1. Summary of all Isaac components [[here](https://github.com/j3soon/nvidia-isaac-summary)]
 1. Getting started with [Omniverse](https://developer.nvidia.com/omniverse#section-getting-started), [Isaac Sim](https://docs.omniverse.nvidia.com/isaacsim/latest/index.html), [Isaac Lab](https://isaac-sim.github.io/IsaacLab/main/index.html), [Isaac ROS](https://nvidia-isaac-ros.github.io/getting_started/index.html), [Jetson AGX](https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/), [GR00T](https://github.com/NVIDIA/Isaac-GR00T), [Cosmos](https://github.com/NVIDIA/Cosmos), [R2D2](https://developer.nvidia.com/blog/tag/robotics-research-development-digest-r2d2/), [Newton](https://github.com/newton-physics/newton), [NVIDIA Warp](https://nvidia.github.io/warp/), [MuJoCo-Warp](https://github.com/google-deepmind/mujoco_warp), [Isaac for Healthcare](https://github.com/isaac-for-healthcare), [and more](https://github.com/j3soon/nvidia-isaac-summary).
-1. Opencode with Free Nemotron 3 Super Setup [[here](https://github.com/j3soon/opencode-nemotron-free)]
 
 ## Abstract of the Talk
 
